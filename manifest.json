@@ -1,0 +1,42 @@
+{
+    "manifest_version": 3,
+    "name": "WhatsThat",
+    "version": "1.0",
+    "description": "Extensión que difumina todos los mensajes de los chats de WhatsApp Web.",
+    "author": "matias-saavedra-g",
+    "permissions": [
+      "tabs"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/icon.png",
+        "48": "icons/icon.png",
+        "128": "icons/icon.png"
+      }
+    },
+    "icons": {
+      "16": "icons/icon.png",
+      "48": "icons/icon.png",
+      "128": "icons/icon.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://web.whatsapp.com/*"],
+        "js": ["js/blurMessages.js"]
+      },
+      {
+        "matches": ["*://web.whatsapp.com/*"],
+        "js": ["js/blurContacts.js"]
+      },
+      {
+        "matches": ["*://web.whatsapp.com/*"],
+        "js": ["js/unblurAll.js"]
+      },
+      {
+        "matches": ["*://web.whatsapp.com/*"],
+        "js": ["js/blurSwitch.js"],
+        "run_at": "document_end"
+      }
+    ]
+}
