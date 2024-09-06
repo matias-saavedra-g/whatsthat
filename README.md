@@ -1,6 +1,6 @@
 <img align="left" height=64 src="icons/icon.png"/><h1><a href="https://github.com/matias-saavedra-g/whatsthat">WhatsThat</a></h1>
 
-Extension de Chromium que difumina todos los mensajes en WhatsApp web. Tiene un botón que alterna entre el modo privacidad y normal. Desarrollado por [matias-saavedra-g](https://github.com/matias-saavedra-g/).
+Extension de Chromium que difumina todos los mensajes y contactos en WhatsApp web y los muestra cuando se tiene el mouse encima de estos. Tiene un botón que alterna entre el modo privacidad y normal. Desarrollado por [matias-saavedra-g](https://github.com/matias-saavedra-g/).
 
 # Ejemplo
 
