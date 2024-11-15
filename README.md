@@ -1,10 +1,52 @@
-<img align="left" height=64 src="icons/icon.png"/><h1><a href="https://github.com/matias-saavedra-g/whatsthat">WhatsThat</a></h1>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+   <img align="left" height=64 src="icons/icon.png"/>
+   <h1>
+      <a href="https://github.com/matias-saavedra-g/whatsthat">
+         WhatsThat
+      </a>
+   </h1>
+</div>
 
-Extension de Chromium que difumina todos los mensajes en WhatsApp web. Desarrollado por [matias-saavedra-g](https://github.com/matias-saavedra-g/).
+Extension de Chromium que añade funciones en WhatsApp web. 
 
-# Ejemplo
+Desarrollado por [matias-saavedra-g](https://github.com/matias-saavedra-g/).
 
-![Ejemplo de la extensión en acción](img/eg.png)
+---
+
+# Índice
+
+- [Índice](#índice)
+- [Funciones](#funciones)
+  - [Difuminar mensajes](#difuminar-mensajes)
+  - [Copiar mensajes](#copiar-mensajes)
+- [Instalación de la Extensión desde GitHub](#instalación-de-la-extensión-desde-github)
+  - [Chrome:](#chrome)
+  - [Opera:](#opera)
+  - [Microsoft Edge:](#microsoft-edge)
+
+---
+
+# Funciones
+
+## Difuminar mensajes
+
+![Imagen de ejemplo de mensajes difuminados](img/eg1.png)
+
+### Descripción <!-- omit in toc -->
+
+Difumina los mensajes de texto y stickers de los chats de WhatsApp web. Los mensajes difuminados se pueden ver al pasar el mouse por encima de ellos.
+
+---
+
+## Copiar mensajes
+
+![Imagen de ejemplo de copiado de mensajes](img/eg2.png)
+
+### Descripción <!-- omit in toc -->
+
+Permite copiar mensajes de texto y stickers de los chats de WhatsApp web. Los mensajes copiados se pueden pegar en cualquier lugar.
+
+---
 
 # Instalación de la Extensión desde GitHub
 

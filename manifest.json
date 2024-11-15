@@ -1,11 +1,12 @@
 {
     "manifest_version": 3,
     "name": "WhatsThat",
-    "version": "1.0",
-    "description": "Extensión que difumina todos los mensajes de los chats de WhatsApp Web.",
+    "version": "1.1",
+    "description": "Extensión que difumina todos los mensajes de los chats de WhatsApp Web y permite copiar mensajes con un solo click.",
     "author": "matias-saavedra-g",
     "permissions": [
-      "tabs"
+      "tabs",
+      "clipboardWrite"
     ],
     "action": {
       "default_popup": "popup.html",
@@ -35,7 +36,12 @@
       },
       {
         "matches": ["*://web.whatsapp.com/*"],
-        "js": ["js/blurSwitch.js"],
+        "js": ["js/mainSwitch.js"],
+        "run_at": "document_end"
+      },
+      {
+        "matches": ["*://web.whatsapp.com/*"],
+        "js": ["js/easyCopyMessages.js"],
         "run_at": "document_end"
       }
     ]
