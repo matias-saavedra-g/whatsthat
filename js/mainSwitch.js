@@ -66,7 +66,7 @@ function createCopySwitch() {
     // Add the class to the switch
     copySwitchButton.classList.add("switch");
     // Set the style of the switch
-    copySwitchButton.style = "color: #54656e; background-color: none; border: 0px; cursor: pointer; display: block; height: 24px; margin: 16px auto; width: 24px;";
+    copySwitchButton.style = "color: #54656e; background-color: none; border: 0px; cursor: pointer; display: block; height: 24px; margin: 20px auto; width: 24px;";
     // Add the event listener to the switch
     copySwitchButton.addEventListener("click", function() {
         // Get the current state of the switch
